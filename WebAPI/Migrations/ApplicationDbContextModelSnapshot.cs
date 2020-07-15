@@ -22,13 +22,10 @@ namespace WebAPI.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("CursoIdRef")
+                    b.Property<int?>("ProfesorIdRef")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CursoIdRef")
-                        .IsUnique();
 
                     b.ToTable("Cursos");
                 });
@@ -96,14 +93,10 @@ namespace WebAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Profesores");
-                });
+                    b.HasIndex("CursoIdRef")
+                        .IsUnique();
 
-            modelBuilder.Entity("WebAPI.Models.Curso", b =>
-                {
-                    b.HasOne("WebAPI.Models.Profesor", "Profesor")
-                        .WithOne("Curso")
-                        .HasForeignKey("WebAPI.Models.Curso", "CursoIdRef");
+                    b.ToTable("Profesores");
                 });
 
             modelBuilder.Entity("WebAPI.Models.Estudiante", b =>
@@ -111,6 +104,15 @@ namespace WebAPI.Migrations
                     b.HasOne("WebAPI.Models.Curso", "Curso")
                         .WithMany("Estudiantes")
                         .HasForeignKey("CursoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("WebAPI.Models.Profesor", b =>
+                {
+                    b.HasOne("WebAPI.Models.Curso", "Curso")
+                        .WithOne("Profesor")
+                        .HasForeignKey("WebAPI.Models.Profesor", "CursoIdRef")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

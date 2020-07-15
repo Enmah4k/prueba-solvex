@@ -18,7 +18,7 @@ namespace WebAPI.Models
         public ICollection<Estudiante> Estudiantes { get; set; }
 
         
-        [ForeignKey("CursoIdRef")]
+        [ForeignKey("ProfesorIdRef")]
         public Profesor Profesor { get; set; }
     }
 }

@@ -16,5 +16,13 @@ namespace WebAPI.Data
         public DbSet<Curso> Cursos { get; set; }
         public DbSet<Estudiante> Estudiantes { get; set; }
         public DbSet<Profesor> Profesores { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Curso>()
+                .HasOne(b => b.Profesor)
+                .WithOne(i => i.Curso)
+                .HasForeignKey<Profesor>(b => b.CursoIdRef);
+        }
     }
 }
