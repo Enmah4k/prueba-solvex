@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL PC\\Desktop\\WebAPI\\WebAPI.csproj": {}
+    "c:\\Users\\DELL PC\\Desktop\\prueba-solvex\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL PC\\Desktop\\WebAPI\\WebAPI.csproj": {
+    "c:\\Users\\DELL PC\\Desktop\\prueba-solvex\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL PC\\Desktop\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "c:\\Users\\DELL PC\\Desktop\\prueba-solvex\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\DELL PC\\Desktop\\WebAPI\\WebAPI.csproj",
+        "projectPath": "c:\\Users\\DELL PC\\Desktop\\prueba-solvex\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\DELL PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL PC\\Desktop\\WebAPI\\obj\\",
+        "outputPath": "c:\\Users\\DELL PC\\Desktop\\prueba-solvex\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,8 +37,10 @@
         "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[*, )"
+              "version": "[3.1.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
