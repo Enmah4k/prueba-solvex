@@ -20519,6 +20519,37 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "WebAPI",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\DELL PC\\Desktop\\Enmanuel\\prueba-solvex\\WebAPI\\Views\\Estudiante\\Index.cshtml",
+      "TargetPath": "Views\\Estudiante\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL PC\\Desktop\\Enmanuel\\prueba-solvex\\WebAPI\\Views\\Estudiante\\Details.cshtml",
+      "TargetPath": "Views\\Estudiante\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL PC\\Desktop\\Enmanuel\\prueba-solvex\\WebAPI\\Views\\Estudiante\\Edit.cshtml",
+      "TargetPath": "Views\\Estudiante\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL PC\\Desktop\\Enmanuel\\prueba-solvex\\WebAPI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL PC\\Desktop\\Enmanuel\\prueba-solvex\\WebAPI\\Views\\Estudiante\\Delete.cshtml",
+      "TargetPath": "Views\\Estudiante\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DELL PC\\Desktop\\Enmanuel\\prueba-solvex\\WebAPI\\Views\\Estudiante\\Create.cshtml",
+      "TargetPath": "Views\\Estudiante\\Create.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }
