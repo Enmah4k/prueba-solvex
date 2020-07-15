@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebAPI.Models
 {
@@ -21,6 +22,7 @@ namespace WebAPI.Models
         public string Telefono {get; set;}
 
         [Required]
+        public int CursoIdRef { get; set;}
         public Curso Curso {get; set;}
     }
 }

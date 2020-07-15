@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace shoopsupermarket.Data
+namespace WebAPI.Data
 {
     public class ApplicationDbContext : DbContext
     {
