@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\DELL PC\\Desktop\\prueba-solvex\\WebAPI\\WebAPI.csproj": {}
+    "c:\\Users\\DELL PC\\Desktop\\Enmanuel\\prueba-solvex\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\DELL PC\\Desktop\\prueba-solvex\\WebAPI\\WebAPI.csproj": {
+    "c:\\Users\\DELL PC\\Desktop\\Enmanuel\\prueba-solvex\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\DELL PC\\Desktop\\prueba-solvex\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "c:\\Users\\DELL PC\\Desktop\\Enmanuel\\prueba-solvex\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "c:\\Users\\DELL PC\\Desktop\\prueba-solvex\\WebAPI\\WebAPI.csproj",
+        "projectPath": "c:\\Users\\DELL PC\\Desktop\\Enmanuel\\prueba-solvex\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\DELL PC\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\DELL PC\\Desktop\\prueba-solvex\\WebAPI\\obj\\",
+        "outputPath": "c:\\Users\\DELL PC\\Desktop\\Enmanuel\\prueba-solvex\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
