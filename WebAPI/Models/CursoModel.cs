@@ -1,10 +1,21 @@
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebAPI.Models
 {
-    public class CursoModel
+    public class Curso
     {
-        public int Id { get; set; }
-        public ICollection<Estudiante> Estudiantes {get; set;}
+        [Key]
+        [Column(Order = 1)]
+        public string Nivel { get; set; }
+        [Key]
+        [Column(Order = 2)]
+        public string Aula { get; set; }
+
+
+        public ICollection<Estudiante> Estudiantes { get; set; }
+        public Profesor Profesor { get; set; }
     }
 }
